@@ -16,7 +16,7 @@ namespace student
             try
             {
                 numOfStudent = int.Parse(Console.ReadLine());
-                InputStudentList();
+                InputStudentList(numOfStudent);
             }
             catch (Exception ex)
             {
